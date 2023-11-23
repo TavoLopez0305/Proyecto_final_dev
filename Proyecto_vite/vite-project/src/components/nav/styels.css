@@ -1,0 +1,17 @@
+.second-nav{
+    background-color: white;
+}
+.second-nav ul{
+    display: flex;
+    list-style: none;
+}
+.second-nav ul li{
+    padding: 8px;
+}
+.second-nav ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: larger;
+    color: black;
+
+}

@@ -1,0 +1,9 @@
+.title_box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.title{
+    font-size: xx-large;
+    font-weight: 500;
+}

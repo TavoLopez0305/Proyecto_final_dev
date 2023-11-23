@@ -1,0 +1,16 @@
+.main_box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: auto;
+}
+.nav_categorias{
+    display: flex;
+}
+.nav_categorias ul{
+    list-style: none;
+}
+.nav_categorias a{
+    text-decoration: none;
+    color: ;
+}

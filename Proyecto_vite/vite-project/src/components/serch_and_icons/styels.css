@@ -1,0 +1,32 @@
+.container_serch_icons{
+    display: flex;
+    padding: 5px;
+    justify-content: flex-end;
+    align-content: center  ;
+}
+
+.input_group{ 
+    display: flex;
+    align-items: center;
+    position:relative;
+    padding: 10px;
+}
+.search_icon{
+    position: absolute;
+    font-size: 35px;
+    left: 20px;
+    
+}
+.search{
+    width: 160px;
+    padding: 10px 10px 10px 30px;
+    font-size: small;
+    border-radius: 15px;
+    border: 2.5px solid black;
+}
+.Favorite{
+    padding: 10px;
+}
+.bag{
+    padding: 10px;
+}

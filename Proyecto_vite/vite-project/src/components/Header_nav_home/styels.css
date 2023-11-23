@@ -1,0 +1,25 @@
+
+.nav{
+    padding: 2px;
+    background-color: #ccccccbb ;
+
+}
+.nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.nav ul li{
+    padding: 2px;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color: white;
+    border-left: black solid 3px;
+    border-radius: 1px;
+    padding: .5em;
+    font-size: medium;
+    font-weight: bold;
+}
