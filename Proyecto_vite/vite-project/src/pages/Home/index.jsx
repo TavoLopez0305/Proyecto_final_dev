@@ -1,6 +1,4 @@
 import React from "react";
-import 'styels.css'
-
 const Home = () =>{
     return(
         <>
@@ -8,4 +6,4 @@ const Home = () =>{
         </>
     )
 }
-export{Home}
+export{Home};

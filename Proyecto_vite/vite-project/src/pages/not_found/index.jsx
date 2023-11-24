@@ -1,6 +1,4 @@
 import React from "react";
-import 'styels.css'
-
 const Not_found = () =>{
     return(
         <>
@@ -8,4 +6,4 @@ const Not_found = () =>{
         </>
     )
 }
-export{Not_found}
+export{Not_found};

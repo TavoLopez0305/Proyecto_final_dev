@@ -1,5 +1,4 @@
 import React from "react";
-import 'styels.css'
 
 const Novedades = () =>{
     return(
@@ -8,4 +7,4 @@ const Novedades = () =>{
         </>
     )
 }
-export{Novedades}
+export{Novedades};

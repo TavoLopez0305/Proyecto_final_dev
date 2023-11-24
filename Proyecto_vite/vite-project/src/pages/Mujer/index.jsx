@@ -1,5 +1,4 @@
 import React from "react";
-import 'styels.css'
 
 const Mujer = () =>{
     return(
@@ -8,4 +7,4 @@ const Mujer = () =>{
         </>
     )
 }
-export{Mujer}
+export{Mujer};

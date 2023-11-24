@@ -1,6 +1,4 @@
 import React from "react";
-import 'styels.css'
-
 const Sneaker = () =>{
     return(
         <>
@@ -8,4 +6,4 @@ const Sneaker = () =>{
         </>
     )
 }
-export{Sneaker}
+export{Sneaker};
