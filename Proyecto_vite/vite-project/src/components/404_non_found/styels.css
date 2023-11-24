@@ -1,0 +1,18 @@
+.main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.firt-text{
+    font-size: xx-large;
+    font-weight: bold;
+
+}
+img{
+    height: 50%;
+    width: auto;
+}
+div{
+    display: flex;
+    justify-content: space-around;
+}
