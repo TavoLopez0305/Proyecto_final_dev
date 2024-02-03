@@ -1,0 +1,42 @@
+.Main-nav{
+    padding: 2px;
+    background-color: #ccccccbb ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between ;
+
+}
+.Main-nav ul{
+    list-style: none;
+    display: flex;
+    justify-content:space-between ;
+    
+}
+.Block-one li{
+    padding-inline: 10px;
+}
+.Block-one .unic{
+    border-left: white solid 3px;
+}
+.Block-one li a{
+    color: black;
+    text-decoration: none;
+    font-size: larger;
+    font-weight: 700;
+
+}
+.Block-two li{
+    padding-inline: 10px;
+
+}
+.Block-two .unic{
+    border-right: black solid 3px;
+
+}
+.Block-two li a{
+    color: white;
+    text-decoration: none;
+    font-size: larger;
+    font-weight: 700;
+}
+

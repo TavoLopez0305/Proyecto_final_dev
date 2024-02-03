@@ -1,5 +1,6 @@
 import React from "react";
 import '../nav/styels.css'
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
 
@@ -7,12 +8,12 @@ const Navbar = () => {
       <React.Fragment>
             <nav className="second-nav">
               <ul>
-                <li><a href="">Hombre</a></li>
-                <li><a href="">Mujer</a></li>
-                <li><a href="">Novedades</a></li>
+                <li><Link to="/Cabellero">Hombre</Link></li>
+                <li><Link to="/Dama">Mujer</Link></li>
+                <li><Link to="/Novedades">Novedades</Link></li>
               </ul>
             </nav>
       </React.Fragment>
     )
 }
-    export {Navbar} ;
+export {Navbar} ;

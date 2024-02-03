@@ -1,0 +1,30 @@
+.body_non_found{
+    margin: 0%;
+    background-color: black;
+}
+.body_non_found .main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+
+}
+.head{
+    color: white;
+    font-size: 100px;
+    font-weight: 800;
+    width: min-content;
+    padding: 5px;
+}
+.main .non{
+    color: white;
+    font-family: sans-serif;
+    font-size: 30px;
+
+}
+.logo{
+    width: 600px;
+}
+.img_content{
+    width: min-content;
+}

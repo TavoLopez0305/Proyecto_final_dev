@@ -1,0 +1,32 @@
+header{
+    padding-inline: 1%;
+    padding-top: 1%;
+}
+.Second_nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+ article .cardlist{
+    width: fit-content;
+    border: 3px solid black;
+    border-radius: 5px;
+    padding-inline: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+    align-content: center;
+
+    column-gap: 10px;
+    row-gap: 10px;
+
+}
+.sub_nav{
+    display: flex;
+    padding: 3%;
+    justify-content: space-around;
+}

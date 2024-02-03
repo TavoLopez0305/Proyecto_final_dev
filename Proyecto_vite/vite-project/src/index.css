@@ -1,4 +1,24 @@
 body{
-    font-family: cursive;
+  margin: 2%;
+  font-family: Arial, Helvetica, sans-serif;
 }
-
+.Nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.main_box{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border: 1px solid black;
+  padding: 2%;
+}
+.Box_one{
+  border: 2px solid black;
+  border-radius: 5px;
+}
+.Box_two{
+  border: 2px solid black;
+  border-radius: 5px;
+  }

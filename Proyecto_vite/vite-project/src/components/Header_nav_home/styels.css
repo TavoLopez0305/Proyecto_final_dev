@@ -1,7 +1,9 @@
-
 .nav{
     padding: 2px;
     background-color: #ccccccbb ;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
 
 }
 .nav ul{

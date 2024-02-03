@@ -1,18 +1,20 @@
 import React from "react";
-import '.styels.css'
+import './styels.css'
 
-const Card = (props) => {
+const Card = ({name, img, precio}) => {
   
     return(
         <>
-        <div>
-            <div><img src={props.img} alt="" /></div>
-            <div>
-                <p> {props.name } </p>
-                <p> {props.precio} </p>
-                <a href=""><i></i></a>
+            <div className="card">
+                <div className="box">
+                    <img src={img} alt="" />
+                    <p> {precio} </p>
+                    <a href=""><i></i></a>
+                </div>
+                <div className="box_name">
+                    <p> {name} </p>
+                 </div>
             </div>
-        </div>
         </>
     )
 }

@@ -24,4 +24,4 @@ const Serch = () => {
       </React.Fragment>
     )
 }
-    export {Serch} ;
+export {Serch} ;

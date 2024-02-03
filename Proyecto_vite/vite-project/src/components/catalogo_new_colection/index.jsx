@@ -4,7 +4,7 @@ import { Nav_and_filter } from "../nav_and_filter";
 import { Cartlist } from "../Cardlist";
 import { Card } from "../card";
 
-const Catalogo = () => {
+const Catalogo_lo_mas_vedido = () => {
     const tenisArray = [
         {
            id: 1,
@@ -130,4 +130,4 @@ const Catalogo = () => {
     )
 }
 
-export {Catalogo}
+export {Catalogo_lo_mas_vedido}

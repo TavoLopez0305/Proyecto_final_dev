@@ -1,0 +1,38 @@
+.card{
+    width: fit-content;
+    padding: 5px;
+    background-color: #F6F6F6;
+    justify-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+.card p{
+    font-size: x-large;
+    font-weight: 700;
+}
+.box{
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box img{
+    width: 200px;
+    height: auto;
+}
+.box p{
+    width: fit-content;
+    padding: 5px;
+    margin-inline-start: 5%;
+    margin-top: 0;
+    margin-bottom: 3px;
+}
+.box_name{
+    margin: 0;
+    padding-inline: 15px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}

@@ -1,16 +1,41 @@
 .main_box{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
     width: auto;
+    padding: 5px;
+    
 }
 .nav_categorias{
-    display: flex;
+    width: max-content;
+
 }
 .nav_categorias ul{
     list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.nav_categorias ul li{
+    margin-inline: 30px;
 }
 .nav_categorias a{
     text-decoration: none;
-    color: ;
+    color: #a5a9a8 ;
+    font-size: x-large;
+    font-weight: 600;
+}
+.box_filter{
+    border: 3px black solid;
+    border-radius: 5px;
+    padding-inline: 10px;
+    width: fit-content;
+}
+.box_filter a{
+    text-decoration: none;
+    color: black;
+}
+.box_filter p{
+    font-size: large;
+    font-weight: 700;
 }
